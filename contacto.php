@@ -1,7 +1,8 @@
+<?php 
+$pg = "contacto";
+?>
 <!DOCTYPE html>
 <html lang="es" class="h-100">
-
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,7 +18,7 @@
 
 <body id="contacto" class="d-flex flex-column h-100">
     <header class="container">
-    <?php include_once "menu.php";?>
+    <?php include_once "menu.php"; ?>
     </header>
     <main class="container">
         <div class="row">

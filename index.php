@@ -1,3 +1,7 @@
+<?php
+$pg = "inicio";
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -16,50 +20,46 @@
 
 <body id="inicio">
     <header class="container">
-    <?php include_once "menu.php";?>
+        <?php include_once "menu.php"; ?>
     </header>
     <main class="container">
-        <main class="container">
-            <div class="row">
-                <div class="col-12 mt-4 text-center div-cohete">
-                    <a href="proyectos.php"><img src="imagenes/cohete.svg" class="cohete"></a>
-                </div>
+        <div class="row">
+            <div class="col-12 mt-4 text-center div-cohete">
+                <a href="proyectos.php"><img src="imagenes/cohete.svg" class="cohete"></a>
             </div>
-            <div class="row">
-                <div class="col-12 col-sm-6 my-4 mt-sm-5 text-center offset-sm-3 mb-3">
-                    <div class="input-home">
-                        <p class="p-1">Bienvenid@ a mi sitio web.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 text-center">
-                    <a href="proyectos.html" class="btn shadow">Conoce mis proyectos</a>
-                </div>
-            </div>
-        </main>
-        <footer class="container mt-auto pb-3">
-            <div class="row">
-                <div class="col-12 col-sm-3">
-                    <a href="https://github.com/davidliduena" target="_blank" title="Github"><i
-                            class="fab fa-github"></i></a>
-
-                    <a href="https://www.linkedin.com/in/david-lidueña-39b8551a1/" target="_blank" title="Linkedin"><i
-                            class="fab fa-linkedin-in"></i></a>
-                </div>
-                <div class="col-12 col-sm-3">
-                    Sponsor <a href="https://depcsuite.com" target="_blank" title="DEPCSUITE">DePC Suite</a>
-                </div>
-                <div class="col-12 col-sm-3 text-sm-start">
-                    <a href="mailto:davidliduena13@gmail.com">davidliduena13@gmail.com</a>
-                </div>
-            </div>
-        </footer>
-        <div class="whatsapp">
-            <a href="https://api.whatsapp.com/send?phone=3217525222" target="_blank" title="Whatsapp"><i
-                    class="fab fa-whatsapp"></i></a>
         </div>
-        <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <div class="row">
+            <div class="col-12 col-sm-6 my-4 mt-sm-5 text-center offset-sm-3 mb-3">
+                <div class="input-home">
+                    <p class="p-1">Bienvenid@ a mi sitio web.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center">
+                <a href="proyectos.html" class="btn shadow">Conoce mis proyectos</a>
+            </div>
+        </div>
+    </main>
+    <footer class="container mt-auto pb-3">
+        <div class="row">
+            <div class="col-12 col-sm-3">
+                <a href="https://github.com/davidliduena" target="_blank" title="Github"><i class="fab fa-github"></i></a>
+
+                <a href="https://www.linkedin.com/in/david-lidueña-39b8551a1/" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="col-12 col-sm-3">
+                Sponsor <a href="https://depcsuite.com" target="_blank" title="DEPCSUITE">DePC Suite</a>
+            </div>
+            <div class="col-12 col-sm-3 text-sm-start">
+                <a href="mailto:davidliduena13@gmail.com">davidliduena13@gmail.com</a>
+            </div>
+        </div>
+    </footer>
+    <div class="whatsapp">
+        <a href="https://api.whatsapp.com/send?phone=3217525222" target="_blank" title="Whatsapp"><i class="fab fa-whatsapp"></i></a>
+    </div>
+    <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
