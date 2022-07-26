@@ -33,7 +33,7 @@ if($_POST){
 }
 ?>
 
-?>
+
 <!DOCTYPE html>
 <html lang="es" class="h-100">
 <head>
