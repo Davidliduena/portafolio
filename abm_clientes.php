@@ -86,7 +86,7 @@ if(isset($_GET["do"]) && $_GET["do"] == "eliminar"){
     //Almacenar el string jsonClientes en el "archivo.txt"
     file_put_contents("archivo.txt", $jsonClientes);
 
-    header("Location: index.php");
+    header("Location: abm_clientes.php");
 }
 
 ?>

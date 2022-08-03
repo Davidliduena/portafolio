@@ -24,11 +24,11 @@ if($_POST){
     $cabeceras .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
 
     // Cabeceras adicionales
-    $cabeceras .= 'To: nelson.tarche@gmail.com' . "\r\n";
-    $cabeceras .= 'From: contacto@nelsontarche.com.ar' . "\r\n";
+    $cabeceras .= 'To: davidliduena13@gmail.com' . "\r\n";
+    $cabeceras .= 'From: info@davidliduena.online' . "\r\n";
 
     // Enviarlo
-    //mail($para, $titulo, $cuerpo, $cabeceras);
+    mail($para, $titulo, $cuerpo, $cabeceras);
     header("Location: confirmacion-envio.php");
 }
 ?>
