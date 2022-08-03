@@ -46,7 +46,7 @@ $pg = "proyectos";
                     </div>
                     <div class="row py-5">
                         <div class="col-6">
-                            <a href="sistema/abmclientes" class="btn btn-rojo" target="_blank">Ver online</a>
+                            <a href="" class="btn btn-rojo" target="_blank">Ver online</a>
                         </div>
                         <div class="col-6 link-rojo text-center">
                             <a href="">Código fuente</a>
@@ -67,7 +67,7 @@ $pg = "proyectos";
                     </div>
                     <div class="row py-5">
                         <div class="col-6">
-                            <a href="sistema/login" class="btn btn-rojo" target="_blank">Ver online</a>
+                            <a href="" class="btn btn-rojo" target="_blank">Ver online</a>
                         </div>
                         <div class="col-6 link-rojo text-center">
                             <a href="">Código fuente</a>
