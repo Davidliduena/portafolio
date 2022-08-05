@@ -107,7 +107,7 @@ if($_POST){
         </div>
     </footer>
     <div class="whatsapp">
-        <a href="https://api.whatsapp.com/send?phone=3217525222" target="_blank" title="Whatsapp"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://api.whatsapp.com/send?phone=+573217525222" target="_blank" title="Whatsapp"><i class="fab fa-whatsapp"></i></a>
     </div>
     <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
